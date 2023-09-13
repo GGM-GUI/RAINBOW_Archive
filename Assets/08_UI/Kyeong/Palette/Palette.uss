@@ -1,0 +1,28 @@
+.button {
+    background-image: url('project://database/Assets/02_Resources/Kyeong/UI/Pallette/Button.png?fileID=21300000&guid=df0a5133e4a3eed45829ebff70f8dda3&type=3#Button');
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    top: -100%;
+}
+
+.palette {
+    bottom: 100%;
+}
+
+.palette.on {
+    bottom: 0;
+}
+
+.button.show {
+    top: auto;
+}

@@ -1,0 +1,11 @@
+.marble {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(140, 139, 139, 255);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-left: 42px;
+    margin-bottom: 11px;
+}

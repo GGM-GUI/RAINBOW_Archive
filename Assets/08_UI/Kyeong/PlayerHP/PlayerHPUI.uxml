@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08_UI/Kyeong/PlayerHP/PlayerHPUI.uss?fileID=7433441132597879392&amp;guid=ced9d7aa462ea4b4cb9cf833be58b3be&amp;type=3#PlayerHPUI" />
+    <ui:VisualElement name="Container" style="flex-direction: column-reverse; flex-basis: 100%;">
+        <ui:VisualElement name="PlayerHP" style="width: 1000px; height: 200px; bottom: 50px; left: 50px; flex-direction: row; align-items: center;">
+            <ui:VisualElement name="PlayerOutline" style="width: 200px; height: 200px; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/PlayerHPBar.png?fileID=-824204461&amp;guid=d370378d7e86e514bacddd56e5a0ffd7&amp;type=3#PlayerHPBar_2&apos;);">
+                <ui:VisualElement name="PlayerImage" style="width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/99_ETC/Kyeong/RenderTexture/PlayerRenderTexture.renderTexture?fileID=8400000&amp;guid=de6bca065d860724a9f7cd10cad967f3&amp;type=2#PlayerRenderTexture&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Slider" style="position: absolute; height: 69px; width: 457px; top: 104px; left: 221px; flex-direction: row;">
+                <ui:VisualElement name="Value" style="flex-basis: 100%; background-color: rgb(248, 67, 67);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Ect">
+                <ui:VisualElement name="Marbles" style="flex-grow: 1; height: 40px; margin-top: 35px; flex-direction: row; align-items: center; justify-content: flex-start;">
+                    <ui:VisualElement name="GrayMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="RedMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="YellowMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GreenMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="BlueMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PurpleMarble" class="marble">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Marble.png?fileID=21300000&amp;guid=e3e9ef6f2729bc74a9e7c3fcaac22f4b&amp;type=3#Marble&apos;); width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PlayerHPBar" style="background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/PlayerHPBar.png?fileID=-32045038&amp;guid=d370378d7e86e514bacddd56e5a0ffd7&amp;type=3#PlayerHPBar_1&apos;); width: 500px; height: 110px; margin-top: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

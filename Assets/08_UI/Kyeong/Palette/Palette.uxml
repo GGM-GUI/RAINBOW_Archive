@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/08_UI/Kyeong/Palette/Palette.uss?fileID=7433441132597879392&amp;guid=d24bea4a42219cc4e9958517e95175cf&amp;type=3#Palette" />
+    <ui:VisualElement name="Container" style="flex-basis: 100%; align-items: center; justify-content: center;">
+        <ui:VisualElement name="Palette" class="palette" style="width: 1250px; height: 900px; background-image: url(&apos;project://database/Assets/02_Resources/Kyeong/UI/Pallette/Palette.png?fileID=21300000&amp;guid=d1487935fcc6a014da08ce263814dce2&amp;type=3#Palette&apos;); -unity-background-scale-mode: scale-and-crop; align-items: stretch; justify-content: center; background-color: rgba(0, 0, 0, 0);">
+            <ui:Button display-tooltip-when-elided="true" name="GrayButton" class="button show" style="left: 856px; bottom: 614px; -unity-background-image-tint-color: rgb(166, 166, 166);" />
+            <ui:Button display-tooltip-when-elided="true" name="RedButton" class="button" style="left: 604px; bottom: 704px; -unity-background-image-tint-color: rgb(253, 42, 42);" />
+            <ui:Button display-tooltip-when-elided="true" name="YellowButton" class="button" style="left: 339px; bottom: 616px; -unity-background-image-tint-color: rgb(231, 201, 27);" />
+            <ui:Button display-tooltip-when-elided="true" name="GreenButton" class="button" style="left: 213px; bottom: 457px; -unity-background-image-tint-color: rgb(124, 231, 27);" />
+            <ui:Button display-tooltip-when-elided="true" name="BlueButton" class="button" style="left: 300px; bottom: 232px; -unity-background-image-tint-color: rgb(27, 90, 231);" />
+            <ui:Button display-tooltip-when-elided="true" name="PurpleButton" class="button" style="left: 509px; bottom: 105px; -unity-background-image-tint-color: rgb(147, 27, 231);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
